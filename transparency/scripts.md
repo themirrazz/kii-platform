@@ -34,10 +34,14 @@ Loads JSON-LD data onto the page dynamically. JSON-LD is provided by websites to
 ### `/lib/theme.js`
 Applies functionality to the buttons in the 'theme' menu, allowing them to properly switch between dark mode, light mode, or auto. Does not work properly in Opera 9 or the Wii Browser.
 
-###
+### `/lib/wboption.js`
+Handles the header, which includes the buttons to open the "Explorer", and the language and theme panels.
+
+### `/lib/explorer.js`
+Handles the explorer and loads items (the explorer is the menu that displays links to other pages along with my social media accounts).
 
 ## Locales
 Anything in the `locales/*` folder contains localization packs.
 
 ## Page Scripts
-Anything under `jsx/*` manages page-specific content.
+Anything under `jsx/*` manages page-specific content. I won't list all of them here, since most of them just properly apply localization or language packs to part of a page, or run animations. For more advanced features (eg interactive, search bars, etc), the files *will* be listed here.
