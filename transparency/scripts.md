@@ -12,12 +12,32 @@ Anything under `polyfill/*` allows my website to run on older browsers.
 
 ## Libs
 Anything under `lib/*` are global scripts that power important parts of my website.
-### (to be done)
 
-### (to be done)
+### `/lib/migration.js`
+Handles migration of users' preferences - like theme and language - from the Sapphire Update to the Kii-chan framework (which uses different localStorage keys).
+
+### `/lib/dark.js`
+Handles basic dark mode functionality, including loading user preferences and applying the theme to the document before the page loads.
+
+### `/lib/findBaseUrl.js`
+Finds the domain and protocol of the website. It can also detect if it is running from an IPv4 IP address. Used by the sentry lib.
+
+### `/lib/sentry.js`
+Privacy-preserving custom implementation for sentry/error logging.
+
+### `/lib/languages.js`
+A framework used to handle language switching and localization without having to refresh the page.
+
+### `/lib/jsd.js`
+Loads JSON-LD data onto the page dynamically. JSON-LD is provided by websites to help search engines (like Google) better understand the content on the page. JSON-LD is only loaded if the word "bot" is in your user-agent, or if you're using an automation system/webdriver.
+
+### `/lib/theme.js`
+Applies functionality to the buttons in the 'theme' menu, allowing them to properly switch between dark mode, light mode, or auto. Does not work properly in Opera 9 or the Wii Browser.
+
+###
 
 ## Locales
 Anything in the `locales/*` folder contains localization packs.
 
-## Page Files
+## Page Scripts
 Anything under `jsx/*` manages page-specific content.
