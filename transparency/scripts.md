@@ -7,7 +7,7 @@ Anything under `polyfill/*` allows my website to run on older browsers.
 * [themirrazz/jsofill (under development)](https://github.com/themirrazz/jsofill) (`/polyfill/jsofill.js`)
 * [themirrazz/promyfill](https://github.com/themirrazz/promyfill) (`/polyfill/promyfill.js`)
 * [LocalStorage implementation for IE5.5-8](/src/ls-ie.js) (`/polyfill/ls-ie.js`)
-* [inexorabletash/polyfill > obsolote > storage.js](https://github.com/inexorabletash/polyfill/blob/master/obsolete/storage.js) (`/polyfill/storage.js`)
+* [inexorabletash/polyfill > obsolete > storage.js](https://github.com/inexorabletash/polyfill/blob/master/obsolete/storage.js) (`/polyfill/storage.js`)
 * [themirrazz/fetchfill](https://github.com/themirrazz/fetchfill) (`/polyfill/fetchfill.js`, `/polyfill/xmlfill.js`) 
 
 ## Libs
