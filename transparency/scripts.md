@@ -23,7 +23,7 @@ Handles basic dark mode functionality, including loading user preferences and ap
 Finds the domain and protocol of the website. It can also detect if it is running from an IPv4 IP address. Used by the sentry lib.
 
 ### `/lib/sentry.js`
-Privacy-preserving custom implementation for sentry/error logging.
+Privacy-preserving custom implementation for sentry/error logging. [Click here to view the latest privacy policy](https://github.com/themirrazz/privacy)
 
 ### `/lib/languages.js`
 A framework used to handle language switching and localization without having to refresh the page.
